@@ -1,0 +1,19 @@
+uuid: 9020d58e-078f-41ea-95d8-3bf7c60a6642
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.license_info
+field_name: license_info
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

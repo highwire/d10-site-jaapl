@@ -1,0 +1,22 @@
+uuid: db705ee1-a9fa-4afc-bbd8-508d50fafff4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.summary
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.summary
+field_name: summary
+entity_type: node
+bundle: journal_issue
+label: summary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 343ab7f0-9e26-481c-8aab-291bbc9ec67b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.lpage
+field_name: lpage
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

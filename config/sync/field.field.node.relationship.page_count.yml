@@ -1,0 +1,22 @@
+uuid: e6c25d61-5a83-49b3-9b7e-658dcc56c73b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.page_count
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.page_count
+field_name: page_count
+entity_type: node
+bundle: relationship
+label: page-count
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+highwire_content_site_data:
+  jaapl:
+    id: jaapl
+    publisher-id: aapl
+    status: production
+    type: journal
+    name: 'Journal of the American Academy of Psychiatry and the Law Online'
+    abbrev:
+      medline: 'J Am Acad Psychiatry Law'
+      publisher: jaapl
+    url:
+      ac_service: 'http://jaapl-ac.highwire.org'
+      ac_service_development: 'http://jaapl-ac-dev.highwire.org'
+      development: 'http://dev.jaapl.org'
+      legacy: 'http://hwmaint.jaapl.org'
+      legacy_development: 'http://hwmaint.jaapl.org:4040'
+      legacy_internal: 'http://hwmaint.jaapl.org'
+      legacy_internal_development: 'http://hwmaint.jaapl.highwire.org:4040'
+      production: 'http://jaapl.org'
+    alert-types:
+      production: 'toc_alerts,keyauth_alerts,citedby_alerts'

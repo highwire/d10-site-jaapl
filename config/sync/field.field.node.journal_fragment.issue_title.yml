@@ -1,0 +1,22 @@
+uuid: 2b416a08-8d33-43d0-9558-0a76b80b240a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_title
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.issue_title
+field_name: issue_title
+entity_type: node
+bundle: journal_fragment
+label: issue-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

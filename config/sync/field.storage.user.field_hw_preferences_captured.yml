@@ -1,0 +1,20 @@
+uuid: 18d6a757-e6a4-4123-82a8-c588df724c5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: zdeQF0YWJLZ7JqlmluK5N3DR8HJjU2GZFm3wd-QyZyE
+id: user.field_hw_preferences_captured
+field_name: field_hw_preferences_captured
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

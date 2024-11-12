@@ -1,0 +1,26 @@
+uuid: da8f4ef8-8e22-4ad5-8556-6d8bb06c0210
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.hwmd_references
+    - node.type.journal_article
+  module:
+    - highwire_markup_display
+third_party_settings:
+  highwire_markup_display:
+    markup_display_id: references
+_core:
+  default_config_hash: gI10wNF9IwGkUO2fh6lmGp-F-3Sb83bjgaY79hGCkEY
+id: node.journal_article.hwmd_references
+field_name: hwmd_references
+entity_type: node
+bundle: journal_article
+label: 'HighWire Markup Display - References'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: HWMarkupDisplay
