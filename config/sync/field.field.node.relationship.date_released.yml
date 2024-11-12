@@ -1,0 +1,21 @@
+uuid: 33842c31-1987-4ead-aacd-0871f8e0846f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_released
+    - node.type.relationship
+  module:
+    - datetime
+id: node.relationship.date_released
+field_name: date_released
+entity_type: node
+bundle: relationship
+label: date-released
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

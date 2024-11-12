@@ -1,0 +1,16 @@
+uuid: 43a7d650-023f-4315-a9da-50a20841070d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.eletter_moderator
+  module:
+    - user
+_core:
+  default_config_hash: HJcww1c7aOVs3jVkrqnRjIOyzyh7QHLbuBtZbygEabE
+id: user_add_role_action.eletter_moderator
+label: 'Add the eletter moderator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: eletter_moderator

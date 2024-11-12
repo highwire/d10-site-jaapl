@@ -1,0 +1,21 @@
+uuid: d1a72561-7374-41a3-a3a9-62350773cfcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.free_to_read
+    - node.type.relationship
+id: node.relationship.free_to_read
+field_name: free_to_read
+entity_type: node
+bundle: relationship
+label: free-to-read
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

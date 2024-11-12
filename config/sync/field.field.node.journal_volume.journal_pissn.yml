@@ -1,0 +1,22 @@
+uuid: 61e53a76-2ec8-46f1-aa38-7ea7ec692e32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_pissn
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.journal_pissn
+field_name: journal_pissn
+entity_type: node
+bundle: journal_volume
+label: journal-pissn
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

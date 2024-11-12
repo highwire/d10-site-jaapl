@@ -1,0 +1,22 @@
+uuid: 592129ce-494a-4d2e-bd2c-a12cae4558b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue
+    - node.type.journal
+  module:
+    - text
+id: node.journal.issue
+field_name: issue
+entity_type: node
+bundle: journal
+label: issue
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 9090adaf-d226-47ae-b4fc-7bc947cfe268
+langcode: en
+status: true
+dependencies:
+  module:
+    - highwire_markup_display
+    - node
+_core:
+  default_config_hash: JsFR-S9nom1gFMvvY8J2mNkWu0YhTKc_PMKQVKiKYek
+id: node.hwmd_references
+field_name: hwmd_references
+entity_type: node
+type: HWMarkupDisplay
+settings:
+  case_sensitive: false
+module: highwire_markup_display
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

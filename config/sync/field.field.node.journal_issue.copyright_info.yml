@@ -1,0 +1,22 @@
+uuid: 863acb11-78f0-473a-ada9-42589b824067
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.copyright_info
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.copyright_info
+field_name: copyright_info
+entity_type: node
+bundle: journal_issue
+label: copyright-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

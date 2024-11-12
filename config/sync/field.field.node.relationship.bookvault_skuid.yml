@@ -1,0 +1,22 @@
+uuid: ae5ec76a-4003-4638-bf16-e1ddc9aab8ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.bookvault_skuid
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.bookvault_skuid
+field_name: bookvault_skuid
+entity_type: node
+bundle: relationship
+label: bookvault-skuid
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 0657e3f3-044a-42b0-998e-46e1a7b986d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_epreprint
+    - node.type.journal_issue
+  module:
+    - datetime_range
+id: node.journal_issue.date_epreprint
+field_name: date_epreprint
+entity_type: node
+bundle: journal_issue
+label: date-epreprint
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

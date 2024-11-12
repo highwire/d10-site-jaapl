@@ -1,0 +1,12 @@
+uuid: d4c602a6-40dd-4236-80e8-853ead13fac1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wOziwWoQ4n_7BKe_zxNJaXINvLnh4-SGfZjOC6XAkEY
+id: node.toc_list
+label: 'ToC List Item'
+targetEntityType: node
+cache: true

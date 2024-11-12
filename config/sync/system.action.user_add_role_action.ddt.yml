@@ -1,0 +1,14 @@
+uuid: f56fd8f4-f487-4856-a728-6ce163de9e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ddt
+  module:
+    - user
+id: user_add_role_action.ddt
+label: 'Add the Highwire User - DDT role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ddt

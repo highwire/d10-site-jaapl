@@ -1,0 +1,22 @@
+uuid: a3c4f80d-02bd-40e5-a6ee-5d54513d91d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.subtype
+    - node.type.media
+  module:
+    - text
+id: node.media.subtype
+field_name: subtype
+entity_type: node
+bundle: media
+label: subtype
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

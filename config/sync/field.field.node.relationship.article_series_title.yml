@@ -1,0 +1,22 @@
+uuid: 39a9fd66-255f-4774-816e-52056d3a6eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.article_series_title
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.article_series_title
+field_name: article_series_title
+entity_type: node
+bundle: relationship
+label: article-series-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

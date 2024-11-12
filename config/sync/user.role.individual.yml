@@ -1,0 +1,9 @@
+uuid: e25091af-2b15-48df-9846-c0832224c2df
+langcode: en
+status: true
+dependencies: {  }
+id: individual
+label: 'HighWire User - Individual'
+weight: 12
+is_admin: null
+permissions: {  }

@@ -1,0 +1,21 @@
+uuid: 4a6a64e4-d47c-448c-949e-0407697400b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_source
+    - node.type.relationship
+id: node.relationship.has_source
+field_name: has_source
+entity_type: node
+bundle: relationship
+label: has-source
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

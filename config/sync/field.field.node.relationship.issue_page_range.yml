@@ -1,0 +1,22 @@
+uuid: 013f7bc9-a56e-454e-9304-d78c5662ec62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_page_range
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.issue_page_range
+field_name: issue_page_range
+entity_type: node
+bundle: relationship
+label: issue-page-range
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

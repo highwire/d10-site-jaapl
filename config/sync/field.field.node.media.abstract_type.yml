@@ -1,0 +1,22 @@
+uuid: 9b836e0d-d3ca-4560-8460-432aea604dfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.abstract_type
+    - node.type.media
+  module:
+    - text
+id: node.media.abstract_type
+field_name: abstract_type
+entity_type: node
+bundle: media
+label: abstract-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

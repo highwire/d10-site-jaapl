@@ -1,0 +1,22 @@
+uuid: 67097225-4e60-45e3-86e6-f8f2bc397fad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pisa_version
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.pisa_version
+field_name: pisa_version
+entity_type: node
+bundle: relationship
+label: pisa-version
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
