@@ -1,0 +1,22 @@
+uuid: fb61a0a5-97a1-4c45-b453-57071059a56b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pisa_version
+    - node.type.journal
+  module:
+    - text
+id: node.journal.pisa_version
+field_name: pisa_version
+entity_type: node
+bundle: journal
+label: pisa-version
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

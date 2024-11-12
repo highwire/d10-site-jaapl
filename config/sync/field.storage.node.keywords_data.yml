@@ -1,0 +1,19 @@
+uuid: d41f2c2a-0344-4979-a8ad-64abb3cd8b4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.keywords_data
+field_name: keywords_data
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

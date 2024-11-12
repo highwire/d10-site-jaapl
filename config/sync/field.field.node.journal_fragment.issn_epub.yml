@@ -1,0 +1,22 @@
+uuid: 2e8d9145-c4a8-46da-98b2-54629627293a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issn_epub
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.issn_epub
+field_name: issn_epub
+entity_type: node
+bundle: journal_fragment
+label: issn-epub
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

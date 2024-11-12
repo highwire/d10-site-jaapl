@@ -1,0 +1,22 @@
+uuid: 2dc7b842-69c2-4f00-8594-56936627e059
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.doi
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.doi
+field_name: doi
+entity_type: node
+bundle: relationship
+label: doi
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

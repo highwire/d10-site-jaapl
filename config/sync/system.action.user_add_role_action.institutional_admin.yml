@@ -1,0 +1,14 @@
+uuid: 3591aecf-68ac-4917-8dd0-00b7302c32b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.institutional_admin
+  module:
+    - user
+id: user_add_role_action.institutional_admin
+label: 'Add the HighWire User - Institutional Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: institutional_admin

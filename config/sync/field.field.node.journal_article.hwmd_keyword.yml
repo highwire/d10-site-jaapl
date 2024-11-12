@@ -1,0 +1,26 @@
+uuid: cb55e1c9-e45e-4e4d-9fab-44d423f3b562
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.hwmd_keyword
+    - node.type.journal_article
+  module:
+    - highwire_markup_display
+third_party_settings:
+  highwire_markup_display:
+    markup_display_id: keyword
+_core:
+  default_config_hash: KeVrOgPKia3EyMpjTDsVbNuawbjYr-x8GOtak9WTiQs
+id: node.journal_article.hwmd_keyword
+field_name: hwmd_keyword
+entity_type: node
+bundle: journal_article
+label: 'HighWire Markup Display - Keyword'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: HWMarkupDisplay

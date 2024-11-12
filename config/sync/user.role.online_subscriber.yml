@@ -1,0 +1,9 @@
+uuid: a0972962-46bb-41f2-809e-5a391fdc2347
+langcode: en
+status: true
+dependencies: {  }
+id: online_subscriber
+label: 'HighWire User - Online Subscriber'
+weight: 15
+is_admin: null
+permissions: {  }
