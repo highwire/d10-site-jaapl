@@ -5,6 +5,6 @@ dependencies: {  }
 _core:
   default_config_hash: M08HfSjlmu7hu4bMRo2XZmS2kEheemrbaYLQm8m4JFA
 id: content
-label: Content
+label: 'Site Navigation'
 description: ''
 locked: false
