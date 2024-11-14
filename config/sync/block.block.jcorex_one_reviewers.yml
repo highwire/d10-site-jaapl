@@ -1,0 +1,25 @@
+uuid: 14e6540f-c7de-4308-a30e-de951a416f61
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.reviewers
+  module:
+    - system
+  theme:
+    - jcorex_one
+id: jcorex_one_reviewers
+theme: jcorex_one
+region: footer_2
+weight: 0
+provider: null
+plugin: 'system_menu_block:reviewers'
+settings:
+  id: 'system_menu_block:reviewers'
+  label: Reviewers
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

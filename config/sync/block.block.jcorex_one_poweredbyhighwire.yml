@@ -2,6 +2,10 @@ uuid: fad6c18d-011b-4660-9b4b-8f1e1c430d5f
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:image_block:bb4081a4-0915-4aa6-ba2e-8b04e969a612'
+  module:
+    - block_content
   theme:
     - jcorex_one
 _core:

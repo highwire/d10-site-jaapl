@@ -1,0 +1,25 @@
+uuid: 068bbb17-b13c-4b26-abab-0ecd168b6767
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.left
+  module:
+    - system
+  theme:
+    - jcorex_one
+id: jcorex_one_leftsidetopmenu
+theme: jcorex_one
+region: header_top_section
+weight: 0
+provider: null
+plugin: 'system_menu_block:left'
+settings:
+  id: 'system_menu_block:left'
+  label: 'Left side Top Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
